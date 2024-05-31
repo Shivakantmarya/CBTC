@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TO-DO List </title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+
+    <div class="logo hide">
+        <h1>My <span>T0-D0</span></h1>
+    </div>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <p>You must write something!</p>
+
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">task1</li>
+                <li>task2</li>
+                <li>task3</li> -->
+
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="todo.js"></script>
+</html>
