@@ -1,2 +1,1 @@
-# CBTC
-This is my Internship task repo. for Cipherbyte technologies.
+basic projects , that can help to be better version .
